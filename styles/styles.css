@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color:  rgba(182,141,76,.3);
+    background:  radial-gradient(ellipse at center, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 100%);
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+#instruction {
+  font: italic bold normal 12px serif;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+tr {
+    height: 10px;
+}
+
+td {
+    width: 10px;
+}
+
+input[type=number] {
+    width: 6em;
+}
